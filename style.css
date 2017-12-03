@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background: url(http://res.cloudinary.com/w4d/image/upload/c_scale,w_1389/v1504826680/jeremy-bishop-160885_1_ndgocx.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#quote-box {
+  width: 500px;
+  margin: 0 auto;
+  top: 50%;
+  left: 30%;
+  display: table;
+}
+
+#buttons {
+  display: table;
+  margin: 0 auto;
+/*   padding: 30px 30px 10px 30px; */
+  width: 500px;
+}
+
+#title {
+  margin: 30px 0 70px 0px;
+  font-family: 'Josefin Slab', serif;
+  color: white;
+}
+
+h2 {
+  font-size: 48px;
+  text-align: center;
+}
+
+#quote-icon-left {
+  text-align: left;
+  color: rgb(255,20,147);
+}
+
+#quote-icon-right {
+ text-align: right;
+ color: rgb(255,20,147);
+}
+
+#quotes {
+  text-align: center;
+  word-wrap: break-word;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  color: white;
+}
+
+#author {
+/*   margin-left: 300px; */
+  margin-left: 300px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  color: white;
+}
+
+#getMessage {
+  margin-bottom: 22px;
+  margin-left: 373px;
+  background: none;
+  border: 2px solid yellow;
+  color: white;
+}
+
+.footer {
+  color: rgb(80, 30, 190);
+}
